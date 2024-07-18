@@ -1,9 +1,10 @@
 package com.saksham.questionservice.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-
+@NoArgsConstructor
 public class QuestionWrapper {
     private int id;
     private String questionTitle;
